@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css" />
+    <script src="./js/formulario.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cuerpoprofe">
+        <header>
+          <h1>Profesor</h1>
+        </header>
+        <nav></nav>
+        <section>
+          <form action="http://uce/profesor">
+            <h2>Datos</h2>
+            <p id="incompleto"></p>
+            <p id="cmp">C&#233;dula</p>
+            <p type="cedula:"><input type="text" /></p>
+            <p id="cmp">Nombre</p>
+            <p type="nombre:"><input type="text" /></p>
+            <p id="cmp">Apellido</p>
+            <p type="apellido:"><input type="text" /></p>
+          </form>
+
+          <div class="contBtn">
+            <button onclick="guardar()">Guardar</button>
+          </div>
+          <div class="contJson">
+            <h2>Json</h2>
+            <p type="campo:"><input type="text" /></p>
+          </div>
+          <div>
+            <button>Json</button>
+          </div>
+        </section>
+
+        <footer></footer>
+      </div>
+    </div>
+  </body>
+</html>
